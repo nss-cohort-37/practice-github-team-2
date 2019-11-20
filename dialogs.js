@@ -80,6 +80,13 @@ const initializeDetailButtonEvents = () => {
             theDialog.showModal()
         }
     )
+    document.querySelector("#button--princess").addEventListener(
+        "click",
+        theClickEvent => {
+            const theDialog = document.querySelector("#details--princess")
+            theDialog.showModal()
+        }
+    )
 
 }
 
