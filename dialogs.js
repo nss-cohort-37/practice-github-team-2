@@ -66,6 +66,14 @@ const initializeDetailButtonEvents = () => {
         }
     )
 
+    document.querySelector("#button--spongebob").addEventListener(
+        "click",
+        theClickEvent => {
+            const theDialog = document.querySelector("#details--spongebob")
+            theDialog.showModal()
+        }
+    )
+
 }
 
 export default initializeDetailButtonEvents
