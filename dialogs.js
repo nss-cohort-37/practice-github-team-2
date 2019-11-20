@@ -65,6 +65,13 @@ const initializeDetailButtonEvents = () => {
             theDialog.showModal()
         }
     )
+    document.querySelector("#button--chewy").addEventListener(
+        "click",
+        theClickEvent => {
+            const theDialog = document.querySelector("#details--chewy")
+            theDialog.showModal()
+        }
+    )
 
     document.querySelector("#button--spongebob").addEventListener(
         "click",
