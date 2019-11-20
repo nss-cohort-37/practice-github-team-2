@@ -65,7 +65,13 @@ const initializeDetailButtonEvents = () => {
             theDialog.showModal()
         }
     )
-
+    document.querySelector("#button--pennywise").addEventListener(
+        "click",
+        theClickEvent => {
+            const theDialog = document.querySelector("#details--pennywise")
+            theDialog.showModal()
+        }
+    )
 }
 
 export default initializeDetailButtonEvents
